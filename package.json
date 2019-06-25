@@ -1,0 +1,51 @@
+{
+  "name": "mina-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node task/build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "herculex": "^0.2.10",
+    "dayjs": "^1.7.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-proposal-decorators": "^7.4.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.2.0",
+    "@babel/plugin-proposal-function-sent": "^7.2.0",
+    "@babel/plugin-proposal-numeric-separator": "^7.2.0",
+    "@babel/plugin-proposal-throw-expressions": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/register": "^7.4.0",
+    "@babel/runtime": "^7.4.5",
+    "autoprefixer": "^9.5.1",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "consolidate": "^0.15.1",
+    "copy-webpack-plugin": "^5.0.3",
+    "css-loader": "^2.1.1",
+    "fs-extra": "^8.0.1",
+    "lodash": "^4.17.11",
+    "mini-css-extract-plugin": "^0.6.0",
+    "postcss": "^7.0.16",
+    "postcss-loader": "^3.0.0",
+    "progress-bar-webpack-plugin": "^1.12.1",
+    "sass": "^1.20.1",
+    "sass-loader": "^7.1.0",
+    "shelljs": "^0.8.3",
+    "smallmina-loader": "^0.0.6",
+    "style-loader": "^0.23.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.32.0",
+    "webpack-cli": "^3.3.2"
+  }
+}

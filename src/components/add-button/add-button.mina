@@ -1,0 +1,42 @@
+<template>
+    <button class="add-button" hover-class="none" onTap="onClickMe">
+        <text class="add-icon">+</text>
+        <text>{{text}}</text>
+    </button>
+</template>
+<script>
+    import base from '../../common/base'
+    base()
+    Component({
+        props: {
+            text: 'Button',
+            onClickMe: () => {},
+        },
+
+        methods: {
+            onClickMe() {
+                this.props.onClickMe();
+            },
+        },
+    });
+</script>
+<style lang="stylus">
+    .add-button {
+        display: inline-block;
+        background: none;
+        color: #FFF;
+        border: none;
+        width: 300rpx;
+    }
+    .add-button:before{
+        content '  '
+        width 100rpx
+        height 100rpx
+        background red
+    }
+    .add-icon {
+        font-size: 52rpx;
+        color: #00FFD6;
+        margin-right: 10rpx;
+    }
+</style>

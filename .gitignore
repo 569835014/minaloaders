@@ -1,0 +1,8 @@
+.idea
+node_modules
+.vscode
+dist
+_dist
+_package
+build
+yarn.lock
